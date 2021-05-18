@@ -1,38 +1,269 @@
-.App {
+* {
+  margin: 0; 
+}
+
+body {
+  background-color: var(--color-2);
+}
+
+.app {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.app__header {
+  display: flex;
+  align-items: center;
+  margin: 20px 30px 25px 30px;
+  justify-content: space-between;
+  background-color: var(--color-3);
+  padding: 10px;
+  border-radius: 50px;
+
+
+}
+
+.app__h1 {
+  padding: 10px 15px 10px 15px;
+  color: var(--color-4);
+  /* border: 10px solid var(--color-4);
+  border-radius: 50px; */
+  /* margin-left: 200px !important;
+  right: 20px; */
+}
+
+.app__dropdown{
+  background-color: var(--color-2);
+  border-radius: 50px;
+  /* color: var(--color-4); */
+  /* padding: 0; */
+  /* border: none; */
+  /* outline: none; */
+  /* background: none; */
+}
+
+.app__select {
+  color: var(--color-4) !important;
+}
+
+.app__menu {
+  color: var(--color-4) !important;
+  background-color: var(--color-3) !important;
+  /* border-bottom: 1px solid var(--color-2)  !important; */
+}
+/* .app__dropdown__text {
+  color: aquamarine;
+} */
+
+
+.app__top__mid {
+  margin: 20px 30px 50px 30px;
+  background-color: var(--color-3);
+  border-radius: 50px;
+  padding: 20px;
+}
+
+
+.app__header__box {
+  background-color: var(--color-3);
+  border-radius: 50px;
+  /* flex-wrap: wrap; */
+
+  /* height: ; */
+}
+
+
+.app__stats {
+  display: flex;
+  justify-content: space-between;
+}
+
+.app__mid{
+  display: flex;
+  margin: 20px 30px 50px 30px;
+  background-color: var(--color-3);
+  border-radius: 50px;
+  /* display: flex; */
+  /* flex: 1; */
+  flex-wrap: wrap;
+  /* justify-content: flex-end; */
+  /* justify-content: space-evenly; */
+
+}
+
+.app__table {
+  flex: 0.5;
+  margin: 15px 15px 20px;
+  color: var(--color-4);
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app__table h3 {
+  background-color: var(--color-2);
+  margin: 0 240px 0 240px;
+  border-radius: 50px;
+  padding: 10px 0 10px 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.app__charts {
+  flex: 0.5;
+  margin: 15px 15px 20px;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app__charts h3 {
+  text-align: center;
+  background-color: var(--color-2);
+  /* margin: 0 520px 25px 0; */
+  margin: 0 240px 16px 240px;
+  padding: 10px 0 10px 0;
+  border-radius: 50px;
+  color: var(--color-4);
+}
+
+.app__charts h4 {
+  text-align: center;
+  background-color: var(--color-2);
+  /* margin: 0 520px 25px 0; */
+  margin: 10px 480px 16px 0;
+  padding: 10px 0 10px 0;
+  border-radius: 50px;
+  color: var(--color-4);
+}
+
+.app__charity {
+  /* display: flex; */
+  margin: 20px 30px 50px 30px;
+  background-color: var(--color-3);
+  border-radius: 50px;
+  /* height: 100px; */
+  padding-top: 10px;
+}
+.app__charity__title {
+  /* display: flex; */
+  /* text-align: center; */
+  background-color: var(--color-2);
+  /* margin: 0 520px 25px 0; */
+  /* margin: 10px 480px 16px 0; */
+  padding: 10px 10px 10px 10px;
+  border-radius: 50px;
+  color: var(--color-4);
+  margin: 10px 580px 10px 580px;
+  /* margin-top: 100px; */
+}
+
+.app__charity__left__right {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 20px;
+  /* text-align: center; */
+  color: var(--color-4);
 }
 
-.App-link {
-  color: #61dafb;
+.app__charity__left {
+  margin-right: 20px;
+      /* border: 10px solid var(--color-4); */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.app__charity__item {
+  background-color: var(--color-2);
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 50px;
+  font-weight: bold;
+  /* border: 1px solid var(--color-4); */
 }
+
+.app__charity__item h2 {
+  font-size: 30px;
+  background-color: var(--color-2);
+  /* margin-bottom: 20px; */
+  padding: 5px 12px 5px 12px;
+  border-radius: 50px;
+
+  
+
+}
+
+.app__charity__item__top {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--color-3);
+  margin-bottom: 10px;
+
+  /* margin: 0 520px 25px 0; */
+  /* margin: 10px 480px 16px 0; */
+  padding: 15px 25px 15px 25px;
+  border-radius: 50px;
+  color: var(--color-4);
+}
+
+.app__charity__logo {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  background-color: var(--color-2);
+}
+
+.app__charity__item p {
+  background-color: var(--color-3);
+  /* margin: 0 520px 25px 0; */
+  /* margin: 10px 480px 16px 0; */
+  padding: 15px 25px 15px 25px;
+  border-radius: 50px;
+  color: var(--color-4);
+
+  /* margin: 10px 580px 10px 580px; */
+}
+
+
+
+
+
+
+
+
+@media (max-width: 720px) {
+  .app {
+    flex-direction: column;
+  }
+
+  .app__top {
+    width: 200%;
+  }
+
+  .app__header {
+    display: flex;
+    width: auto;
+    align-items: center;
+    margin: 20px 30px 25px 30px;
+    justify-content: space-between;
+    background-color: var(--color-3);
+    padding: 10px;
+    border-radius: 50px;
+  }
+
+  .app__mid {
+    width: 200%;
+    justify-content: center;
+
+    margin: 0 auto;
+
+  }
+
+  .app__table {
+    flex: 1;
+    /* width: 200%; */
+  }
+
+  /* .app__table h3 {
+    margin: 0;
+  } */
+
+  .app__charts {
+    flex: 1;
+    width: 200%;
+  }
+
+}
+
