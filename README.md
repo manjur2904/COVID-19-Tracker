@@ -1,4 +1,4 @@
-This is an Covid-19 Tracker app.
+This is a Covid-19 Tracker application.
 
 I used ReactJs to build this.
 
